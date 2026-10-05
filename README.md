@@ -1,82 +1,233 @@
-# Hi 👋, I'm Mono Ranjan Das
+# Hi, I'm Mono Ranjan 👋
 
-🚀 Self-taught **Full-Stack Web & Mobile Developer** with 5+ years of hands-on experience building real-world, scalable applications.
+### Backend-Focused Full-Stack Developer · PHP/Symfony · Vue/Nuxt · PostgreSQL · Docker · AI/RAG Systems
 
-I love turning ideas into products — especially platforms focused on **reading, writing, and meaningful content**.
+I'm a self-taught software developer focused on building **real-world, production-ready web applications, APIs, and scalable backend systems**.
 
----
+My strongest area is backend development with **PHP & Symfony**, but I work across the full stack — from Nuxt/Vue frontends and React Native mobile apps to PostgreSQL, Redis, queues, search, Docker infrastructure, and AI-powered retrieval systems.
 
-## 🧠 About Me
-
-- 🔧 Backend-focused full-stack developer
-- 🏗️ Building scalable systems with performance in mind
-- 📚 Founder & builder of a content-driven reading/writing platform
-- ⚡ Strong believer in caching, optimization, and clean architecture
-- 🌱 Always learning and experimenting with new tech
+I enjoy taking a product from an idea to a working system: **designing the database, building APIs, deploying services, debugging production problems, optimizing performance, and gradually scaling the architecture.**
 
 ---
 
-## 🛠️ Tech Stack
+## 👨‍💻 What I Work With
 
-### Backend
-- **PHP**, **Symfony**
-- REST APIs
-- Redis (caching & performance optimization)
-- Meilisearch (fast & relevant search)
+**Backend & APIs**
 
-### Frontend
-- **Vue.js**, **Nuxt 3**
-- JavaScript (ES6+)
-- Pinia, VueUse
+`PHP` · `Symfony` · `Doctrine ORM` · `REST APIs` · `JWT` · `PHPUnit`
 
-### Mobile
-- **React Native (Expo)**
-- Expo Router
-- Android builds (APK / AAB)
+**Frontend**
 
-### Dev & Tools
-- Docker 🐳
-- Git & GitHub
-- Linux (Ubuntu)
-- Node.js (text processing & tooling)
+`Vue.js` · `Nuxt 3` · `JavaScript` · `TypeScript` · `Tailwind CSS` · `Pinia`
 
----
+**Mobile**
 
-## 📦 What I’m Working On
+`React Native` · `Expo` · `Expo Router`
 
-- 📖 A platform where users can:
-  - Read & write books freely
-  - Follow authors
-  - Create personal libraries
-  - Share stories, poems, research & ideas
-- 🔊 Bengali Text-to-Speech (TTS) experiments
-- 🔍 Advanced search & SEO for large text content
-- ⚙️ Performance optimization using Redis & pre-caching
+**Data & Search**
+
+`PostgreSQL` · `MySQL` · `Redis` · `Meilisearch` · `pgvector`
+
+**Infrastructure**
+
+`Docker` · `Nginx` · `Linux` · `RabbitMQ` · `Supervisor` · `Git`
+
+**AI / Retrieval**
+
+`Embeddings` · `Vector Search` · `Semantic Search` · `RAG` · `Ollama` · `LLM Integration`
 
 ---
 
-## 💡 Interests
+## 🚀 What I Build
 
-- Scalable system design
-- Content platforms & creator tools
-- Search & text processing
-- AI-powered features (TTS, language learning, automation)
+I like working on systems where several pieces have to work together.
+
+```text
+                    ┌──────────────────┐
+                    │   Web / Mobile   │
+                    │ Nuxt · Vue · RN  │
+                    └────────┬─────────┘
+                             │
+                             ▼
+                    ┌──────────────────┐
+                    │   Symfony API    │
+                    │ Auth · Business  │
+                    │ Logic · REST     │
+                    └────────┬─────────┘
+                             │
+              ┌──────────────┼──────────────┐
+              ▼              ▼              ▼
+        PostgreSQL         Redis         RabbitMQ
+        + pgvector         Cache          Workers
+              │
+              ▼
+        Embeddings / Search
+              │
+              ▼
+        AI-powered features
+```
+
+That includes authentication, background jobs, caching, search, notifications, semantic retrieval, vector embeddings, and production deployment.
 
 ---
 
-## 📫 Connect With Me
+## 📖 Featured Project — Bookspointer
 
-- 🌐 Website: **https://bookspointer.com**
-- 💻 GitHub: You’re already here 🙂
-- 📩 Open to collaboration, ideas, and meaningful projects
+**Bookspointer** is a Bengali-first reading and writing platform that I design, develop, deploy, and maintain.
+
+🌐 **bookspointer.com**
+
+Users can:
+
+- 📚 Read books, stories, poems and other content
+- ✍️ Write and publish their own work
+- 👤 Follow authors
+- ❤️ Interact with content
+- 📖 Build personal libraries
+- 🔎 Discover content through search
+- 📱 Use the Android application
+
+### Architecture
+
+```text
+Nuxt 3
+   │
+   ▼
+Symfony REST API
+   │
+   ├── PostgreSQL
+   ├── Redis
+   ├── Meilisearch
+   ├── RabbitMQ
+   ├── pgvector
+   └── Mercure
+
+React Native / Expo
+   │
+   └── Same backend ecosystem
+```
+
+Beyond regular CRUD development, the project has given me hands-on experience with:
+
+- production Docker infrastructure
+- PostgreSQL database design
+- Redis caching
+- asynchronous workers and queues
+- full-text and semantic search
+- vector embeddings
+- recommendation experiments
+- real-time communication
+- push notifications
+- SEO and SSR
+- performance optimization
+- production debugging and monitoring
+
+Bookspointer is also where I experiment with bringing **AI and semantic retrieval into a real product**, rather than building isolated AI demos.
 
 ---
 
-## ⚡ Fun Fact
+## 🧠 AI & Semantic Search
 
-I don’t just code features —  
-I build **products**, **communities**, and **systems that scale**.
+One area I'm actively developing deeper expertise in is the intersection of traditional software engineering and AI.
+
+My current work includes:
+
+```text
+Documents
+    ↓
+Text processing
+    ↓
+Chunking
+    ↓
+Embedding model
+    ↓
+Vector storage (pgvector)
+    ↓
+Similarity / semantic search
+    ↓
+Relevant context
+    ↓
+LLM
+    ↓
+Grounded answer
+```
+
+I'm particularly interested in:
+
+**RAG · Embeddings · Vector Databases · Semantic Search · AI Assistants · LLM Integration**
+
+My goal is not simply to call AI APIs, but to understand how to build the **software architecture around AI systems** reliably.
 
 ---
 
-⭐ If you like my work, feel free to star a repo or start a discussion!
+## 🛠️ Engineering Areas I Enjoy
+
+- Backend architecture
+- API design
+- PostgreSQL and data modeling
+- Performance optimization
+- Redis caching
+- Background processing
+- Dockerized infrastructure
+- Search systems
+- Semantic/vector search
+- Production debugging
+- AI-assisted applications
+
+---
+
+## 🌱 Currently Exploring
+
+I'm currently going deeper into:
+
+- RAG architecture
+- LLM-powered applications
+- embedding models
+- vector search
+- AI assistants for websites
+- workflow automation
+- scalable backend architecture
+
+I believe the most interesting software products will increasingly combine **traditional software engineering with AI**, so that's where I'm focusing much of my learning.
+
+---
+
+## 💡 How I Approach Development
+
+I didn't enter software engineering through a traditional path.
+
+I learned by **building, breaking things, debugging them, deploying them, and repeating the process**.
+
+That experience shaped how I work today:
+
+> Build something useful.  
+> Understand how it works.  
+> Measure where it fails.  
+> Improve the architecture.  
+> Keep learning.
+
+---
+
+## 🤝 Open to Opportunities
+
+I'm interested in remote opportunities involving:
+
+**Backend Development · Full-Stack Development · PHP/Symfony · SaaS · APIs · AI/RAG Applications**
+
+I particularly enjoy projects where I can work on backend architecture, databases, infrastructure, performance, or AI-powered product features.
+
+---
+
+## 🔗 Connect
+
+🌐 **Bookspointer:** https://bookspointer.com  
+💼 **LinkedIn:** https://www.linkedin.com/in/monoranjan-das-7b150a172  
+💻 **GitHub:** https://github.com/shumon-das
+
+---
+
+### ⚡ One thing about me
+
+I don't want to stop at learning frameworks.
+
+I want to understand how **complete systems work** — from the database and backend to infrastructure, search, AI, and the experience delivered to the end user.
